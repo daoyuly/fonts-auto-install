@@ -20,7 +20,7 @@ fi
 
 for i in ${FONTS_LIST[*]}; do
     echo "Downloading $i"; echo
-    wget -c https://github.com/daoyuly/fonts-auto-install/raw/master/fonts/$i \
+    wget -c https://github.com/daoyuly/fonts-auto-install/blob/main/fonts/linux/$i \
       || die "Fail to download ${i}"
     mv $i $FONTS_DIR || die "Could not install $i"
     echo "Installed $i successfully"; echo
