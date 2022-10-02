@@ -4,12 +4,12 @@
 
 ### Mac
 ```shell
-curl -L https://github.com/daoyuly/fonts-auto-install/raw/master/install-mac.sh | bash
+curl -L https://github.com/daoyuly/fonts-auto-install/blob/main/install-mac.sh | bash
 ```
 
 ### Linux
 ```shell
-curl -L https://github.com/hbin/top-programming-fonts/raw/master/install-linux.sh | bash
+curl -L https://github.com/daoyuly/fonts-auto-install/blob/main/install-linux.sh | bash
 ```
 
 
