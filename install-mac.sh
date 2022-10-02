@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FONTS_DIR=$HOME/Library/Fonts
+FONTS_DIR=/Library/Fonts
 FONTS_LIST=("Menlo-Regular.ttf" "DejaVuSansMono.ttf" "FiraCode-Regular.ttf" "Inconsolata-Regular.ttf")
 
 function die () {
@@ -9,11 +9,14 @@ function die () {
 }
 
 cat <<EOF
+
 --------------------------
-    Fonts Auto Install
+ Fonts Auto Install
 --------------------------
+  - Created and maintained by daoyuly
 
 EOF
+
 
 if [[ ! -e $FONTS_DIR ]]; then
     mkdir $FONTS_DIR || die "Could not make $FONTS_DIR"
@@ -28,8 +31,11 @@ for i in ${FONTS_LIST[*]}; do
 done
 
 cat <<EOF
+
 --------------------------
-    Fonts installed!
+ Fonts installed
 --------------------------
+  - If you have any question, please
+    mail to <liudaoyu@outlook.com>
 
 EOF
